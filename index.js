@@ -8,7 +8,7 @@ navigator.geolocation.getCurrentPosition(function(position){
     console.log(`<p> Your longitude is : ${ip2}</p>`);
     map = new google.maps.Map(mapDiv, {
     center: {lat: ip, lng: ip2},
-    zoom: 8,
+    zoom: 15,
   });
   marker = new google.maps.Marker({
       position:{
