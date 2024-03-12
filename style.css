@@ -3,7 +3,11 @@
  * that contains the map. 
  */
  #map {
-    height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    height: 50%;
+    width: 50%;
   }
   
   /* 
