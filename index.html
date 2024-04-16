@@ -1,25 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <h1>This Is My Personal Portafoiler</h1>
+      <div class="navbar">
+        <div class="logo"><a href="#">This Is My Personal Portafoiler</a></div>
         <nav>
-        <ul class="menu">
+          <ul class="links">
             <li class="link"><a href="#about">About Me</a></li>
             <li class="link"><a href="#projects">Projects</a></li>
             <li class="link"><a href="#skills">Skills</a></li>
             <li class="link"><a href="#contact">Contact Me</a></li>
-        </ul>
-    </nav>
-</header>
-        
+          </ul>
+        </nav>
+        <div class="toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+
+      <div class="dropdown_menu">
+        <nav>
+          <ul class="linksdrop">
+            <li class="link"><a href="#about">About Me</a></li>
+            <li class="link"><a href="#projects">Projects</a></li>
+            <li class="link"><a href="#skills">Skills</a></li>
+            <li class="link"><a href="#contact">Contact Me</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>WELCOME TO MY PAGE</h1>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <br> Harum sapiente, cum ea error voluptas, voluptatibus accusantium eveniet fugit a quod, inventore minima quia officiis velit repellat libero reprehenderit numquam corporis.</P>
+        </section>
+    </main>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
