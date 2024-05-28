@@ -13,6 +13,14 @@ function navabr() {
 }
 navabr();
 
+
+// try link active
+let linkactive = document.querySelector('.link')
+linkactive.onclick = function(){
+    linkactive.classList.add('linkactive')
+    linkactive.classList.remove('link')
+}
+
 //step 1: get DOM
 let nextDom = document.getElementById('next');
 let prevDom = document.getElementById('prev');
