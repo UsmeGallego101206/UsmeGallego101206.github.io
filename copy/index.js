@@ -54,6 +54,7 @@ function showSlider(type){
     if(type === 'next'){
         SliderDom.appendChild(SliderItemsDom[0]);
         thumbnailBorderDom.appendChild(thumbnailItemsDom[0]);
+        linkactive.classList.add('linkactive')
         carouselDom.classList.add('next');
     }else{
         SliderDom.prepend(SliderItemsDom[SliderItemsDom.length - 1]);
